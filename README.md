@@ -12,7 +12,10 @@
 * used insomnia doc's to help with operating the app
 * was rusty with seeding and npm doc's helped with the seeding of the database
 
-#### Screenshots
+# Screenshots
 
-![added category](E-commerce\Develop\assets\ecom-added-cat.png)
-![added product](../../assets/ecom-added-pro.png)
+![added category](Develop/assets/ecomCat.png)
+
+![added product](Develop/assets/ecom-added-pro.png)
+
+[video](https://drive.google.com/file/d/1P2-alqzqcxNsuRf3-QsV4FWAJKB1UZe6/view)
