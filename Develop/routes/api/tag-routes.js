@@ -6,8 +6,8 @@ const { Tag, Product, ProductTag } = require('../../models');
 router.get('/', (req, res) => {
   Tag.findAll({
     include: {
-      model: Product,
-      attributes: ['product_name', 'price', 'stock', 'category_id']
+      model: ProductTag,
+      attributes: ['product_id', 'tag_id']
     }
   })
     .then(tagData => res.json(tagData))
@@ -23,8 +23,8 @@ router.get('/:id', (req, res) => {
       id: req.params.id
     },
     include: {
-      model: Product,
-      attributes: ['product_name', 'price', 'stock', 'category']
+      model: ProductTag,
+      attributes: ['product_id', 'tag_id']
     }
   })
     .then(tagData => res.json(tagData))
@@ -51,12 +51,12 @@ router.put('/:id', (req, res) => {
       id: req.params.id
     }
   })
-    .then(dbTagData => {
-      if (!dbTagData) {
+    .then(tagData => {
+      if (!tagData) {
         res.status(404).json({ message: 'No tag found with this id' });
         return;
       }
-      res.json(dbTagData);
+      res.json(tagData);
     })
     .catch(err => {
       console.log(err);
@@ -70,12 +70,12 @@ router.delete('/:id', (req, res) => {
       id: req.params.id
     }
   })
-    .then(dbTagData => {
-      if (!dbTagData) {
+    .then(tagData => {
+      if (!tagData) {
         res.status(404).json({ message: 'No tag found with this id' });
         return;
       }
-      res.json(dbTagData);
+      res.json(tagData);
     })
     .catch(err => {
       console.log(err);
