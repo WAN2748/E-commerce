@@ -14,10 +14,30 @@
 
 # Screenshots
 
-![added category](Develop/assets/ecomCat.png)
+![category all](Develop/assets/getAll.png)
 
-![added product](Develop/assets/ecom-added-pro.png)
+![category by ID](Develop/assets/getById.png)
+
+![category post](Develop/assets/postCat.png)
+
+![category by updated](Develop/assets/catUpdated.png)
+
+![all products](Develop/assets/getAllProd.png)
+
+![Product by ID](Develop/assets/getProdById.png)
+
+![Product Update](Develop/assets/prodUpdate.png)
+
+![Product updated](Develop/assets/getProdUpdated.png)
+
+![all tags](Develop/assets/getAllTags.png)
+
+![Tags by ID](Develop/assets/getTagsById.png)
+
+![tag post](Develop/assets/postTag.png)
+
+![tag update](Develop/assets/tagUpdate.png)
 
 ## Video Demo
 
-[Video Demo](https://drive.google.com/file/d/1P2-alqzqcxNsuRf3-QsV4FWAJKB1UZe6/view)
+[Video Demo](https://drive.google.com/file/d/1avIkrfA_z_ehqVnP-_aiYIVgqGSkU5_c/view)
