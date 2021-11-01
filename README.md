@@ -12,6 +12,15 @@
 * used insomnia doc's to help with operating the app
 * was rusty with seeding and npm doc's helped with the seeding of the database
 
+#### How to use
+fork repo and run npm install
+open in insomnia
+
+##### Tech
+JS
+insomnia
+node
+
 # Screenshots
 
 ![category all](Develop/assets/getAll.png)
